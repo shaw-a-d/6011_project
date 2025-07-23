@@ -1,0 +1,71 @@
+"Retail sales of electricity"
+"https://www.eia.gov/electricity/data/browser/#/topic/5?agg=1,0&geo=vvvvvvvvvvvvo&endsec=g&linechart=ELEC.SALES.US-ALL.A&columnchart=ELEC.SALES.US-ALL.A&map=ELEC.SALES.US-ALL.A&freq=A&start=2014&end=2023&ctype=linechart&ltype=pin&rtype=s&pin=ELEC.SALES.US-ALL.A&rse=0&maptype=0&utm_source=chatgpt.com"
+"Sat Jul 12 2025 13:34:47 GMT-0400 (Eastern Daylight Time)"
+"Source: U.S. Energy Information Administration"
+"description","units","source key","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023"
+"Pinned series",,,,,,,,,,,,
+"Retail sales of electricity : United States : all sectors : annual","million kilowatthours","ELEC.SALES.US-ALL.A",3764700,3758992,3762462,3723356,3859185,3811150,3717674,3805874,3927169,3874253
+"Retail sales of electricity","million kilowatthours",,,,,,,,,,,
+"All sectors","million kilowatthours","ELEC.SALES.US-ALL.A",,,,,,,,,,
+"All sectors : United States","million kilowatthours","ELEC.SALES.US-ALL.A",3764700,3758992,3762462,3723356,3859185,3811150,3717674,3805874,3927169,3874253
+"All sectors : New England","million kilowatthours","ELEC.SALES.NEW-ALL.A",119983,120170,117802,115458,118634,114458,111846,113799,114491,111329
+"All sectors : Connecticut","million kilowatthours","ELEC.SALES.CT-ALL.A",29354,29476,28931,28136,28834,27900,27114,27738,27767,26685
+"All sectors : Maine","million kilowatthours","ELEC.SALES.ME-ALL.A",12003,11888,11449,11214,12355,11732,11347,11585,11876,11336
+"All sectors : Massachusetts","million kilowatthours","ELEC.SALES.MA-ALL.A",54469,54621,53476,52513,53285,51337,50009,50798,50983,50012
+"All sectors : New Hampshire","million kilowatthours","ELEC.SALES.NH-ALL.A",10944,10999,10905,10787,11046,10712,10694,10867,10818,10631
+"All sectors : Rhode Island","million kilowatthours","ELEC.SALES.RI-ALL.A",7643,7665,7524,7385,7583,7350,7352,7398,7576,7301
+"All sectors : Vermont","million kilowatthours","ELEC.SALES.VT-ALL.A",5570,5521,5516,5424,5531,5428,5331,5413,5470,5364
+"All sectors : Middle Atlantic","million kilowatthours","ELEC.SALES.MAT-ALL.A",367926,370747,368490,361366,374923,365097,352126,357834,362698,349230
+"All sectors : New Jersey","million kilowatthours","ELEC.SALES.NJ-ALL.A",73866,75490,75359,73383,76017,73917,71998,73070,74443,71097
+"All sectors : New York","million kilowatthours","ELEC.SALES.NY-ALL.A",147372,148914,147803,144992,149930,145600,140407,141424,143211,139422
+"All sectors : Pennsylvania","million kilowatthours","ELEC.SALES.PA-ALL.A",146688,146344,145328,142991,148977,145580,139721,143340,145045,138711
+"All sectors : East North Central","million kilowatthours","ELEC.SALES.ENC-ALL.A",571971,563527,569557,553784,575593,559352,536700,552387,555931,539367
+"All sectors : Illinois","million kilowatthours","ELEC.SALES.IL-ALL.A",141540,138620,141050,137196,142655,138319,132469,135689,135872,130578
+"All sectors : Indiana","million kilowatthours","ELEC.SALES.IN-ALL.A",106943,104515,103705,98966,104194,102104,97156,99740,100044,95995
+"All sectors : Michigan","million kilowatthours","ELEC.SALES.MI-ALL.A",103314,102480,104468,101899,104869,101249,97012,99813,100639,97589
+"All sectors : Ohio","million kilowatthours","ELEC.SALES.OH-ALL.A",150680,149213,150598,146644,152915,148522,142615,147718,149500,146641
+"All sectors : Wisconsin","million kilowatthours","ELEC.SALES.WI-ALL.A",69495,68699,69736,69079,70960,69158,67448,69427,69876,68564
+"All sectors : West North Central","million kilowatthours","ELEC.SALES.WNC-ALL.A",301178,294806,295255,295637,308478,302838,295591,305983,315811,313923
+"All sectors : Iowa","million kilowatthours","ELEC.SALES.IA-ALL.A",47202,47147,48431,48922,51211,51043,50640,52893,54204,54400
+"All sectors : Kansas","million kilowatthours","ELEC.SALES.KS-ALL.A",40562,39849,40810,40288,42037,41160,39484,40492,41961,41052
+"All sectors : Minnesota","million kilowatthours","ELEC.SALES.MN-ALL.A",68719,66579,66546,67153,68708,66966,64055,66589,66635,66216
+"All sectors : Missouri","million kilowatthours","ELEC.SALES.MO-ALL.A",83878,81504,78618,76461,82056,78858,75726,77763,80306,76976
+"All sectors : Nebraska","million kilowatthours","ELEC.SALES.NE-ALL.A",30222,29495,30199,30359,30939,30383,31172,32341,33844,33571
+"All sectors : North Dakota","million kilowatthours","ELEC.SALES.ND-ALL.A",18240,18129,18520,20140,20670,21559,21819,22863,25393,28202
+"All sectors : South Dakota","million kilowatthours","ELEC.SALES.SD-ALL.A",12355,12102,12130,12314,12857,12869,12696,13041,13467,13506
+"All sectors : South Atlantic","million kilowatthours","ELEC.SALES.SAT-ALL.A",805631,815537,816179,800717,835391,831191,810913,833301,862536,849646
+"All sectors : Delaware","million kilowatthours","ELEC.SALES.DE-ALL.A",11338,11498,11258,11129,11773,11469,11129,11480,11539,11082
+"All sectors : District Of Columbia","million kilowatthours","ELEC.SALES.DC-ALL.A",11194,11291,11394,10916,11358,11028,9786,10083,10242,9880
+"All sectors : Florida","million kilowatthours","ELEC.SALES.FL-ALL.A",226078,235599,235722,233155,238565,240348,242440,241562,248821,250940
+"All sectors : Georgia","million kilowatthours","ELEC.SALES.GA-ALL.A",135790,135878,138112,133457,139866,139301,133470,137364,145035,142029
+"All sectors : Maryland","million kilowatthours","ELEC.SALES.MD-ALL.A",61684,61782,61354,59304,62086,60721,57629,59304,59683,57033
+"All sectors : North Carolina","million kilowatthours","ELEC.SALES.NC-ALL.A",133133,133848,134404,131421,138287,136436,130391,135693,139207,133091
+"All sectors : South Carolina","million kilowatthours","ELEC.SALES.SC-ALL.A",81620,81328,79578,78097,81641,80206,76737,79792,82758,81202
+"All sectors : Virginia","million kilowatthours","ELEC.SALES.VA-ALL.A",112098,112009,112281,111530,118166,118435,117254,125245,132265,132319
+"All sectors : West Virginia","million kilowatthours","ELEC.SALES.WV-ALL.A",32696,32303,32076,31709,33647,33247,32077,32778,32986,32071
+"All sectors : East South Central","million kilowatthours","ELEC.SALES.ESC-ALL.A",318961,313208,312587,303945,320192,312221,296682,307739,313458,303571
+"All sectors : Alabama","million kilowatthours","ELEC.SALES.AL-ALL.A",90494,88846,88225,86242,90280,88095,83396,85585,87028,84880
+"All sectors : Kentucky","million kilowatthours","ELEC.SALES.KY-ALL.A",78839,76039,74554,72634,76611,75345,71800,74517,75339,71223
+"All sectors : Mississippi","million kilowatthours","ELEC.SALES.MS-ALL.A",49409,48692,49050,47829,50390,48951,46482,48015,48980,48422
+"All sectors : Tennessee","million kilowatthours","ELEC.SALES.TN-ALL.A",100219,99632,100758,97240,102911,99829,95004,99621,102112,99046
+"All sectors : West South Central","million kilowatthours","ELEC.SALES.WSC-ALL.A",588952,591815,597819,599664,632783,635361,624140,639636,689025,705823
+"All sectors : Arkansas","million kilowatthours","ELEC.SALES.AR-ALL.A",47080,46465,46188,46086,49603,48093,45851,48663,48998,48649
+"All sectors : Louisiana","million kilowatthours","ELEC.SALES.LA-ALL.A",90628,91676,91453,91206,94186,93129,89127,90819,95139,95374
+"All sectors : Oklahoma","million kilowatthours","ELEC.SALES.OK-ALL.A",61573,61336,61517,60492,64575,64796,62299,64525,69487,68979
+"All sectors : Texas","million kilowatthours","ELEC.SALES.TX-ALL.A",389670,392337,398662,401880,424419,429343,426863,435628,475401,492820
+"All sectors : Mountain","million kilowatthours","ELEC.SALES.MTN-ALL.A",272398,274962,276122,278014,283325,283525,287061,290707,299086,299394
+"All sectors : Arizona","million kilowatthours","ELEC.SALES.AZ-ALL.A",76298,77349,78238,77646,78346,77929,81960,81220,84197,85919
+"All sectors : Colorado","million kilowatthours","ELEC.SALES.CO-ALL.A",53397,54116,54802,54830,56450,56521,56050,56351,56763,55566
+"All sectors : Idaho","million kilowatthours","ELEC.SALES.ID-ALL.A",23233,23059,23063,23794,23754,23985,24461,25286,26201,25674
+"All sectors : Montana","million kilowatthours","ELEC.SALES.MT-ALL.A",14102,14207,14101,14710,14839,15321,14584,14962,15584,15505
+"All sectors : Nevada","million kilowatthours","ELEC.SALES.NV-ALL.A",35076,36020,36145,36658,37780,36982,38234,39032,39320,38249
+"All sectors : New Mexico","million kilowatthours","ELEC.SALES.NM-ALL.A",23115,23094,23040,23010,24049,24880,24777,25394,27156,28347
+"All sectors : Utah","million kilowatthours","ELEC.SALES.UT-ALL.A",30043,30192,30180,30589,31242,31143,31663,32678,33366,33344
+"All sectors : Wyoming","million kilowatthours","ELEC.SALES.WY-ALL.A",17134,16925,16555,16778,16865,16763,15331,15785,16499,16790
+"All sectors : Pacific Contiguous","million kilowatthours","ELEC.SALES.PCC-ALL.A",402061,398550,393081,399260,394556,391836,387900,389584,399093,387018
+"All sectors : California","million kilowatthours","ELEC.SALES.CA-ALL.A",262585,261170,256847,257268,255224,250379,250175,247250,251869,239480
+"All sectors : Oregon","million kilowatthours","ELEC.SALES.OR-ALL.A",47335,47264,47349,50044,49326,50404,51019,54135,56327,57985
+"All sectors : Washington","million kilowatthours","ELEC.SALES.WA-ALL.A",92141,90116,88885,91948,90006,91053,86706,88199,90897,89553
+"All sectors : Pacific Noncontiguous","million kilowatthours","ELEC.SALES.PCN-ALL.A",15640,15671,15569,15510,15310,15272,14714,14906,15041,14952
+"All sectors : Alaska","million kilowatthours","ELEC.SALES.AK-ALL.A",6165,6159,6123,6186,5972,5819,5918,5969,6002,6025
+"All sectors : Hawaii","million kilowatthours","ELEC.SALES.HI-ALL.A",9475,9511,9445,9324,9337,9453,8797,8936,9039,8927
