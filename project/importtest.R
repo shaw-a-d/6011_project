@@ -7,9 +7,9 @@ library(janitor)
 library(dplyr)
 library(ggplot2)
 
-setwd('~/Documents/Academic/University/GATech/Summer 2025/6011 Coding & Analysis')
+setwd('~/Documents/GitHub/6011_coding/6011_project')
 
-file_list <- list.files('data/raw/generator', full.names = TRUE)
+file_list <- list.files('project_data/generator', full.names = TRUE)
 
 solar_state_year <- data.frame()
 
