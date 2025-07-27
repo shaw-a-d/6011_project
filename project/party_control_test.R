@@ -5,11 +5,24 @@ library(dplyr)
 library(tidyr)
 library(ggplot2)
 
-setwd('~/Documents/Academic/University/GATech/Summer 2025/6011 Coding & Analysis')
+file_list_party <- list.files('project_data/raw/party_control', full.names = TRUE)
 
-df <- read_xlsx('data/raw/party_control/legis_control_2014.xlsx', skip = 1)
+df_party <- data.frame()
 
-year <- 2014
+for (file in file_list_party) {
+  year <- as.numeric(gsub("\\D", "", basename(file)))
+  
+  df <- read_xlsx(file, skip = 1) |>
+    clean_names() |>
+    mutate(year = year) |>
+    select(state, year, state_control) |>
+    slice(1:50)
+  
+  df_party <- bind_rows(df_party, df)
+  
+}
+
+View(df_party)
 
 party_control <- df |>
   clean_names() |>

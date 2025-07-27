@@ -7,9 +7,8 @@ library(dplyr)
 library(tidyr)
 library(ggplot2)
 
-setwd('~/Documents/Academic/University/GATech/Summer 2025/6011 Coding & Analysis')
 
-file_list <- list.files('data/raw/generator', full.names = TRUE)
+file_list <- list.files('project_data/raw/generator', full.names = TRUE)
 
 solar_state_year <- data.frame()
 
@@ -29,7 +28,7 @@ for (file in file_list) {
 }
 
 
-rps_raw <- read_xlsx('data/raw/rps_ces_nominal_aug_2024.xlsx',
+rps_raw <- read_xlsx('project_data/raw/rps_ces_nominal_aug_2024.xlsx',
                      sheet = 1,
                      skip = 24)
 
