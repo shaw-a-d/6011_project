@@ -5,6 +5,8 @@ library(dplyr)
 library(tidyr)
 library(ggplot2)
 
+# Import 
+
 file_list_party <- list.files('project_data/raw/party_control', full.names = TRUE)
 
 df_party <- data.frame()
@@ -22,16 +24,19 @@ for (file in file_list_party) {
   
 }
 
-View(df_party)
+# Clean state names
 
-party_control <- df |>
-  clean_names() |>
-  slice(1:50) |>
-  mutate(year = year) |>
-  mutate(state = state2abbr(state)) |>
-  select("state", "year", "state_control")
+## Removed "*" from state names as footnotes not directly relevant to this analysis
+## "N/A" listed are all from Nebraska as they have 'unicameral' state congress. However,
+## Nebraska's has been consistently "Rep" since 1999.
 
-View(party_control)
+df_party$state <- gsub("\\*", "", df_party$state)
+df_party$state_control <- df_party$state_control |> 
+  gsub("\\*", "", x = _) |>
+  gsub("N/A", "Rep", x = _)
 
-install.packages('usdata')
-library(usdata)
+df_party_clean <- df_party |> 
+  mutate(state = state2abbr(state))
+
+
+

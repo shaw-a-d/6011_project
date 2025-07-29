@@ -1,7 +1,5 @@
 #RPS data
 
-setwd('~/Documents/Academic/University/GATech/Summer 2025/6011 Coding & Analysis')
-
 library(readr)
 library(readxl)
 library(janitor)
@@ -10,13 +8,13 @@ library(tidyr)
 library(ggplot2)
 
 
-rps_raw <- read_xlsx('data/raw/rps_ces_nominal_aug_2024.xlsx',
+rps_raw <- read_xlsx('project_data/raw/rps_ces_nominal_aug_2024.xlsx',
                      sheet = 1,
                      skip = 24)
 
+View(rps_raw)
 
-
-
+# Filter data using regular expressions to find relevant policies
 rps_small <- rps_raw |>
   select(-`Special Notes`) |>
   fill(State, .direction = 'down') |>
@@ -27,6 +25,7 @@ rps_small <- rps_raw |>
 
 
 
+# Pivot & slice 
 rps_long <- rps_small |>
   pivot_longer(cols = matches("[0-9]{4}"),
                names_to = "year",
@@ -36,6 +35,12 @@ rps_long <- rps_small |>
   clean_names() |>
   rename(policy = rps_tier_or_carve_out)
 
+View(rps_long)
+
+# Create binaries and select relevant policies and pivot data to (state X year)
+# Created binary variables to flag whether there were active policies in states
+  # in addition to any targets to help differentiate those states with RPS targets
+  # and without
 
 policy_long <- rps_long |>
   mutate(rps_target = ifelse(grepl('total rps', policy, ignore.case = TRUE) &
@@ -44,14 +49,12 @@ policy_long <- rps_long |>
          solar_active = ifelse(grepl('solar', policy, ignore.case = TRUE) &
                                  percent > 0, 1, 0))
 
-# Let me make changes testing
-
-
-
 
 policy_clean <- policy_long |>
   group_by(state, year) |>
   summarise(rps_target = max(rps_target, na.rm = TRUE),
             rps_active = max(rps_active),
             solar_active = max(solar_active))
+
+
 
