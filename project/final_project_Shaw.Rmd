@@ -52,7 +52,6 @@ U.S. Energy Information Administration (EIA). (2025). *State Energy Data System 
 
 # Background
 
-\## Background
 
 Over the past decade, particularly starting in the early 2020s, the U.S. saw a marked increase in solar PV capacity alongside expanding Renewable Portfolio Standard (RPS) targets in many states. These trends signaled strong policy momentum and technological readiness for solar growth. However, that trajectory may now be at risk. In recent years, new political dynamics, regulatory rollbacks, and legal challenges in certain states have introduced uncertainty into the policy landscape.
 
@@ -60,6 +59,7 @@ These shifts raise questions about the long-term durability of state-level solar
 
 While the data in this project are new, this type of work, integrating policy, economics, and data analysis, aligns with the broader goal of supporting businesses and organizations that aim to bring solar and other clean energy technologies to market. This project reflects both a learning process and a practical step toward applying economic and policy insight to real-world energy challenges.
 \newpage
+
 # Data
 
 ## Cleaning
