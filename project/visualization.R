@@ -6,7 +6,6 @@ library(ggplot2)
 library(geofacet)
 library(sf)
 library(tigris)
-library(dplyr)
 library(ggplot2)
 library(viridis)
 
@@ -31,6 +30,12 @@ mean_rps <- solar_panel_final |>
 solar_growth <- solar_growth |>
   left_join(mean_rps, by = "state")
 
+price_sum <- solar_panel_final |>
+  group_by(state) |>
+  summarise(avg_retail_price_kwh = mean(avg_retail_price_kwh, na.rm = TRUE))
+
+solar_growth <- solar_growth |>
+  left_join(price_sum, by = "state")
 
 # Map ---------------------------------------------------------------------
 
@@ -65,6 +70,21 @@ ggplot(states_merge_proj) +
     panel.grid = element_blank()
   )
   labs(title = "Solar Growth vs. Avg RPS Target (2014-2023)")
+  
 
+# Scatterplot -------------------------------------------------------------
+
+ggplot(solar_growth, aes(x = avg_retail_price_kwh, y = mw_growth)) +
+    geom_point(color = "#1f78b4", size = 2.5, alpha = 0.7) +
+    geom_smooth(method = "lm", se = FALSE, color = "darkred", linetype = "dashed") +
+    labs(title = "Solar Growth v. Electricity Price",
+         x = "Average Retail Price (cents per kwh)",
+         y = "Total Solar Growth (MW, 2014 - 2023") +
+  theme_minimal()
+  
+  
+write_csv(states_merge_proj, 'project_data/clean/states_merge_proj.csv')
+saveRDS(states_merge_proj, "project_data/clean/states_merge_proj.rds")
+write_csv(solar_growth, "project_data/clean/solar_growth.csv")
 
   

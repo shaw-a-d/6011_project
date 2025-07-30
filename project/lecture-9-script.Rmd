@@ -34,7 +34,7 @@ getwd()
 #### Research Topic or Abstract
 
 These data were obtained from Toxic Release Inventory (TRI) data from 1987-2022 that examined the effect of pollution on on infant birth outcomes (specifically, *birth weights*) in Louisiana's infamous **Cancer Alley**. The effects of pollutants (e.g., CS~2~) were analyzed per mile^2^.\
-These data are a part of an on-going project with my Professor.  
+These data are a part of an on-going project with my Professor.\
 This project is also available on my GitHub profile, rogue-economista under the test-repo repository. \newpage
 
 ```{=html}
@@ -68,8 +68,7 @@ This [link is the book](https://bookdown.org/yihui/rmarkdown-cookbook/) on RMark
 
 ### Background
 
-Use this section to talk about what motivates your project. Is this furthering your learning in data science? Or are you using this data in an ongoing capacity?
-Also, what has been written if anything about your topic? Give 1-2 citations.
+Use this section to talk about what motivates your project. Is this furthering your learning in data science? Or are you using this data in an ongoing capacity? Also, what has been written if anything about your topic? Give 1-2 citations.
 
 ### The Data
 
@@ -82,7 +81,6 @@ car_values <- read_csv("data/raw/car_values.csv", show_col_types = FALSE)
 ```{r, sumstats-1}
 summary(car_values)
 ```
-
 
 \newpage
 

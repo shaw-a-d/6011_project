@@ -258,3 +258,5 @@ party_control_model <- lm(log(total_mw) ~ rps_target * state_control + year +
 
 summary(party_control_model)
 
+write_csv(solar_panel_final, "project_data/solar_panel_final.csv")
+
